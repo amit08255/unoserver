@@ -169,11 +169,15 @@ Usage example with server
 -------------------------
 
 1. Install `unoserver` and `libreoffice`.
+
 2. Run `unoserver` using command:
-    ```sh
-    unoserver
-    ```
+
+```
+unoserver
+```
+
 3. Run the converter `unoconvert`. Example:
-    ```sh
-    unoconvert file.ppt file.pdf
-    ```
+
+```
+unoconvert file.ppt file.pdf
+```
