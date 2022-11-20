@@ -172,12 +172,8 @@ Usage example with server
 
 2. Run `unoserver` using command:
 
-```
-unoserver
-```
+    ``unoserver``
 
 3. Run the converter `unoconvert`. Example:
 
-```
-unoconvert file.ppt file.pdf
-```
+    ``unoconvert file.ppt file.pdf``
