@@ -163,3 +163,17 @@ Differences for the maintainer
 * It doesn't rely on internal mappings of file types and export filters, but asks LibreOffice
   for this information, which will increase compatibility with different LibreOffice versions,
   and also lowers maintenance.
+
+
+Usage example with server
+-------------------------
+
+1. Install `unoserver` and `libreoffice`.
+2. Run `unoserver` using command:
+    ```sh
+    unoserver
+    ```
+3. Run the converter `unoconvert`. Example:
+    ```sh
+    unoconvert file.ppt file.pdf
+    ```
