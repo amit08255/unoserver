@@ -173,6 +173,8 @@ Usage example with server
 2. Run `unoserver` using command:
 
     ``unoserver``
+    Or to keep server listening on cloud server run below command:
+    ``unoserver &``
 
 3. Run the converter `unoconvert`. Example:
 
